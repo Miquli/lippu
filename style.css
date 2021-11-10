@@ -33,17 +33,17 @@ div {
 }
 
 header {
-  background-color: #666;
+  background-color: red;
   padding: 30px;
   text-align: center;
   font-size: 35px;
-  color: white;
+  color: black;
 }
 
 nav {
   float: left;
   width: 100%;
-  background: #ccc;
+  background: orange;
   padding: 20px;
 }
 
@@ -52,20 +52,12 @@ nav ul {
   padding: 0;
 }
 
-article.ep {
+article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: #f1f1f1;
-  height: 150px; 
-}
-
-article.op {
-  float: left;
-  padding: 20px;
-  width: 70%;
-  background-color: white;
-  height: 150px; 
+  background-color: green;
+  height: 300px; 
 }
 
 section::after {
@@ -75,7 +67,7 @@ section::after {
 }
 
 footer {
-  background-color: #777;
+  background-color: gray;
   padding: 10px;
   text-align: center;
   color: white;
