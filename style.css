@@ -32,7 +32,6 @@ div {
   box-sizing: border-box;
 }
 
-/* Style the header */
 header {
   background-color: #666;
   padding: 30px;
@@ -41,7 +40,6 @@ header {
   color: white;
 }
 
-/* Create two columns/boxes that floats next to each other */
 nav {
   float: left;
   width: 100%;
@@ -49,28 +47,33 @@ nav {
   padding: 20px;
 }
 
-/* Style the list inside the menu */
 nav ul {
   list-style-type: none;
   padding: 0;
 }
 
-article {
+article.ep {
   float: left;
   padding: 20px;
   width: 70%;
   background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
+  height: 150px; 
 }
 
-/* Clear floats after the columns */
+article.op {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: white;
+  height: 150px; 
+}
+
 section::after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Style the footer */
 footer {
   background-color: #777;
   padding: 10px;
@@ -78,11 +81,9 @@ footer {
   color: white;
 }
 
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
   nav, article {
     width: 100%;
     height: auto;
-  }
+    }
 }
-</style>
