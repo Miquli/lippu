@@ -44,10 +44,8 @@ header {
 }
 
 nav {
-  float: left;
-  width: 100%;
   background: orange;
-  padding: 20px;
+  padding: 30px;
 }
 
 nav ul {
