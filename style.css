@@ -1,6 +1,9 @@
 body {
   background-color: gray;
   color: black;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }    
 
 h1.solid {
